@@ -1,0 +1,18 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  font-family: "Quicksand", sans-serif;
+  color: #7a7a7a; }
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-color: #f1f1f1 !important;
+  min-height: 100vh;
+  font-family: "Quicksand"; }
